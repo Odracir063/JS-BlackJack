@@ -1,0 +1,8 @@
+#ignores this types of files.
+*.png
+*.mp3
+*.m4a
+
+#ignores those two files, all binary.
+images
+sounds

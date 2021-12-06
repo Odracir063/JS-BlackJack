@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="BJstyles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="BJtitle">
+        <h2 class="BJtitlecss1">Black</h2>
+        <h2 class="BJtitlecss2"> Jack</h2>
+    </div>
+
+    
+    <h3 class="resultscss"><span id="BJResult">Let's Play</span></h3>
+
+    <div class="BJgamecss" id="BJgame">
+        <div class="playerscss" id="players">
+
+            <div class="youcss" id="you">
+
+                <h3>You: <span id="youResult">0</span></h3>
+
+            </div>
+    
+            <div class="dealercss" id="dealer">
+
+                <h3>Dealer: <span id="dealerResult">0</span></h3>
+
+            </div>
+        </div>
+        
+
+        <div class="BJbtnscss" id="BJbtns">
+
+            <div class="btnscss" id="btns">
+                <button class="btn-primary" id="BJHitBtn" onclick="">Hit</button>
+                <button class="btn-warning" id="BJStandBtn" onclick="">Stand</button>
+                <button class="btn-danger" id="BJDealBtn" onclick="">Deal</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="tablecss" id="table">
+        <table>
+
+            <tr>
+                <td><b>Wins</b></td>
+                <td><b>Losses</b></td>
+                <td><b>Draws</b></td>
+            </tr>
+            <tr>
+                <th><span id="wins">0</span></th>
+                <th><span id="losses">0</span></th>
+                <th><span id="draws">0</span></th>
+            </tr>
+
+        </table>
+    </div>
+
+    
+
+    <script src="BJscript.js"></script>
+    
+</body>
+
+</html>
